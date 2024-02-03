@@ -1,10 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { useEffect } from 'react';
 
 
 import './App.css'
 import Login from "./Login.tsx"
-import Signup from "./Signup.tsx";
+import Signup from "./SignUp.tsx";
 
 function App() {
   return (<>
