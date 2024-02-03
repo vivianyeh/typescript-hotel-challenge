@@ -9,7 +9,7 @@ function SignUp() {
     const signup: SectionProps = {
         message: "已經有會員了嗎？",
         link: "立即登入",
-        url: "/#/Login",
+        url: "typescript-hotel-challenge/#/Login",
     };
 
     return (
