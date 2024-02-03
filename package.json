@@ -1,11 +1,14 @@
 {
   "name": "typescript-hotel-challenge",
+  "homepage": "https://vivianyeh.github.io/typescript-hotel-challenge",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "build": "tsc && vite build --base=./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
