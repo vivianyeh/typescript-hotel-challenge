@@ -1,8 +1,8 @@
 
-import NavBar from "./components/NavBar";
-import LoginBG from "./components/LoginBG";
-import { SectionProps } from "./inferfaces/User";
-import SignUpForm from "./views/SignUpForm";
+import NavBar from "../components/NavBar";
+import LoginBG from "../components/LoginBG";
+import { SectionProps } from "../inferfaces/User";
+import SignUpForm from "../views/SignUpForm";
 
 function SignUp() {
     document.title = "註冊";

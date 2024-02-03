@@ -1,9 +1,9 @@
 
 
-import NavBar from "./components/NavBar";
-import LoginBG from "./components/LoginBG";
-import LoginForm from "./views/LoginForm";
-import { SectionProps } from "./inferfaces/User";
+import NavBar from "../components/NavBar";
+import LoginBG from "../components/LoginBG";
+import LoginForm from "../views/LoginForm";
+import { SectionProps } from "../inferfaces/User";
 function Login() {
     document.title = "登入"
     const login: SectionProps = {
