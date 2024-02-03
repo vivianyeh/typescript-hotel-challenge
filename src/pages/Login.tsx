@@ -9,7 +9,7 @@ function Login() {
     const login: SectionProps = {
         message: "沒有會員嗎？",
         link: "前往註冊",
-        url: "/SignUp",
+        url: "/#/SignUp",
     }
 
     return (
